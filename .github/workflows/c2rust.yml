@@ -29,6 +29,7 @@ jobs:
 
       - name: 配置
         run: |
+          sudo chmod 777 configure
           ./configure
 
       
