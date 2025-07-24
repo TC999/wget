@@ -21,7 +21,7 @@ jobs:
 
       - name: 安装依赖
         run: |
-          sudo apt-get install curl gcc make clang rsync tar pkg-config openssl 
+          sudo apt-get install curl gcc make clang rsync tar pkg-config openssl libgnutls28-dev
           sudo apt-get install llvm-17-dev clang-17 libclang-17-dev libssl-dev bear
 
       - name: 拉取源码
